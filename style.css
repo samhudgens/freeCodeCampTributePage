@@ -1,0 +1,35 @@
+/*
+h1 {
+  text-align: center;
+}
+
+h2 { text-align: center;}
+h3 { text-align: center;}
+*/
+
+html {
+  display: table;
+  margin: auto;
+}
+
+#main-container {
+  /* width: 50%;
+  height: 100%;
+  margin: auto; */
+
+
+  text-align: center;
+
+
+}
+
+ #main-container > ul {
+  list-style-position: inside;
+  text-align: left;
+  display: inline-block;
+}
+
+/* .centered {
+  margin: 0 auto;
+  text-align: left;
+} */
