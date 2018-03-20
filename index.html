@@ -9,7 +9,13 @@
   <div id="main-container">
     <h1>Daisy</h1>
     <h2>An Expert in Fetching Orange Balls</h2>
-    <img src="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyWithBallInDrivewayHorizontal.jpg" alt="Daisy with her ball" width="700"/>
+    <!-- <img src="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyWithBallInDrivewayHorizontal.jpg" alt="Daisy with her ball" width="700"/> -->
+
+    <picture>
+      <source media="(max-width: 849px)" srcset="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyDriveway400w.jpg" />
+      <source media="(min-width: 850px)" srcset="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyDriveway800w.jpg"  />
+      <img src="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyDriveway800w.jpg" alt="Daisy with her ball" />
+    </picture>
 
     <h2>Here are the reasons everyone loves Daisy:</h2>
     <ul class="centered">
@@ -36,6 +42,17 @@
     </blockquote>
 
     <h3>If you want more dogs and other great animals, here's a link to a google search for <a href="https://www.google.com/search?q=animals+being+friends&rlz=1C5CHFA_enUS738US738&source=lnms&tbm=isch&sa=X&ved=0ahUKEwin1rLs847WAhUj_4MKHeC_C8AQ_AUICigB&biw=1320&bih=741">animals being friends.</a></h3>
+
+    <p>
+      Another responsive picture
+    </p>
+
+    <img srcset="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyBed320w.jpg 320w,
+                 /Users/sam/dev/freeCodeCamp/tributePage/images/daisyBed480w.jpg 480w,
+                 /Users/sam/dev/freeCodeCamp/tributePage/images/daisyBed800w.jpg 800w" sizes="(max-width: 320px) 280px,
+               (max-width: 480px) 440px,
+               800px" src="/Users/sam/dev/freeCodeCamp/tributePage/images/daisyBed800w.jpg" alt="Daisy curled up in bed">
+
   </div>
 
 </body>
